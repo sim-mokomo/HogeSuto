@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b85fa27-5155-4167-9d5a-eb0c481d359f" name="Default" comment="Home UI を配置">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Marble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Marble.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="6b85fa27-5155-4167-9d5a-eb0c481d359f" name="Default" comment="プロジェクトデータ更新">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" afterDir="false" />
     </list>
     <ignored path="Assets/Font/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -218,7 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534842305043</updated>
       <workItem from="1534842315677" duration="864000" />
-      <workItem from="1534843534830" duration="4454000" />
+      <workItem from="1534843534830" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="Home UI を配置">
       <created>1534845872959</created>
@@ -227,11 +219,39 @@
       <option name="project" value="LOCAL" />
       <updated>1534845872959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="バトル画面に見えない壁を設置">
+      <created>1534856724404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534856724404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="プレイヤーのコマとなる画像をimport">
+      <created>1534856755211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534856755211</updated>
+    </task>
+    <task id="LOCAL-00004" summary="フリックによるコマの移動を実装。&#10;- flickPower:コマの速度&#10;- flicktion:摩擦力">
+      <created>1534856817087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534856817087</updated>
+    </task>
+    <task id="LOCAL-00005" summary="プロジェクトデータ更新">
+      <created>1534856859975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534856859975</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5318000" />
+    <option name="totallyTimeSpent" value="5557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +299,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home UI を配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home UI を配置" />
+    <MESSAGE value="バトル画面に見えない壁を設置" />
+    <MESSAGE value="プレイヤーのコマとなる画像をimport" />
+    <MESSAGE value="フリックによるコマの移動を実装。&#10;- flickPower:コマの速度&#10;- flicktion:摩擦力" />
+    <MESSAGE value="プロジェクトデータ更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="プロジェクトデータ更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
