@@ -19,11 +19,18 @@ public class MarbleCtrl : MonoBehaviour
 	public void Init()
 	{
 		_rigidbody2D = GetComponent<Rigidbody2D>();
+
+		FlickListener.OnStartFlick += startPos =>
+		{
+			flickArrowRoot.gameObject.SetActive(value: true);
+		};
+		
 		FlickListener.OnEndFlick += flickData =>
 		{
 			Debug.Log(flickData.ToString());
 			_rigidbody2D.velocity = flickData.FlickDirection * -_flickPower;
 			flickArrow.transform.localScale = Vector3.one;
+			flickArrowRoot.gameObject.SetActive(value: false);
 		};
 
 		FlickListener.OnFlicking += flickingPos =>
@@ -31,7 +38,7 @@ public class MarbleCtrl : MonoBehaviour
 			Vector3 diff = flickingPos - transform.position;
 			float angle = Mathf.Atan2(diff.y,diff.x) * Mathf.Rad2Deg;
 			angle += 90.0f;
-			flickArrowRoot.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, angle));
+			flickArrowRoot.transform.rotation = Quaternion.Euler(euler: new Vector3(0.0f, 0.0f, angle));
 
 			float distToMouse = (flickingPos - transform.position).sqrMagnitude;
 			distToMouse = distToMouse - 100.0f;
