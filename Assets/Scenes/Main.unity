@@ -988,6 +988,7 @@ MonoBehaviour:
   flickScalingMaxBounds: 4
   flickMinSize: 0
   flickMaxSize: 5
+  hitWallVFX: {fileID: 1881132004137550, guid: e50b5dc3a57c5420cb738671fc8e7103, type: 2}
 --- !u!212 &1189282885
 SpriteRenderer:
   m_ObjectHideFlags: 0

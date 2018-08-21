@@ -13,6 +13,8 @@ public class MarbleCtrl : MonoBehaviour
 	[SerializeField] private float flickScalingMaxBounds;
 	[SerializeField] private float flickMinSize;
 	[SerializeField] private float flickMaxSize;
+
+	[SerializeField] private GameObject hitWallVFX;
 	
 	public void Init()
 	{
@@ -54,5 +56,9 @@ public class MarbleCtrl : MonoBehaviour
 	{
 		Vector3 normal = other.contacts[0].normal;
 		_rigidbody2D.velocity = Vector3.Reflect(_rigidbody2D.velocity, normal);
+		
+		GameObject hitWallVfxObj = Instantiate(hitWallVFX, transform.position, Quaternion.identity);
+		Quaternion refrectRot = Quaternion.LookRotation(Vector3.forward, normal);
+		hitWallVfxObj.transform.rotation = refrectRot;
 	}
 }
