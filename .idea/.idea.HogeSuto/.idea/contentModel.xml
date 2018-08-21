@@ -312,6 +312,7 @@
           <e p="GameCtrl.cs" t="Include" />
           <e p="HomeCtrl.cs" t="Include" />
           <e p="MarbleCtrl.cs" t="Include" />
+          <e p="SoundCtrl.cs" t="Include" />
         </e>
       </e>
       <e p="HogeSuto.sln" t="IncludeFlat" />

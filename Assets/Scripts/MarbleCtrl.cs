@@ -15,6 +15,7 @@ public class MarbleCtrl : MonoBehaviour
 	[SerializeField] private float flickMaxSize;
 
 	[SerializeField] private GameObject hitWallVFX;
+	[SerializeField] private AudioClip hitWallSE;
 	
 	public void Init()
 	{
@@ -67,5 +68,6 @@ public class MarbleCtrl : MonoBehaviour
 		GameObject hitWallVfxObj = Instantiate(hitWallVFX, transform.position, Quaternion.identity);
 		Quaternion refrectRot = Quaternion.LookRotation(Vector3.forward, normal);
 		hitWallVfxObj.transform.rotation = refrectRot;
+		SoundCtrl.PlayOneShot(hitWallSE);
 	}
 }

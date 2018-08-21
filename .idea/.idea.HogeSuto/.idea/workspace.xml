@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b85fa27-5155-4167-9d5a-eb0c481d359f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Particles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Hit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Hit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/HitWall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/HitWall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShadowRectangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/ShadowRectangle.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particles/HitWall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particles/HitWall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" afterDir="false" />
     </list>
     <ignored path="Assets/Font/" />
@@ -22,99 +15,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="GameCtrl.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-                  <folding>
-                    <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
-                    <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
-                    <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HomeCtrl.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-                  <folding>
-                    <marker date="1534846240965" expanded="true" signature="6:114" ph="..." />
-                    <marker date="1534846240965" expanded="true" signature="153:241" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FlickListener.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="825">
-                  <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-                  <folding>
-                    <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
-                    <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="371:614" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="660:1535" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="852:956" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="977:1426" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="1023:1112" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="1158:1331" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="1372:1423" ph="{...}" />
-                    <marker date="1534854758935" expanded="true" signature="1463:1531" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MarbleCtrl.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-                  <folding>
-                    <marker date="1534876329317" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1534876329317" expanded="true" signature="119:2098" ph="{...}" />
-                    <marker date="1534876329317" expanded="true" signature="585:1599" ph="{...}" />
-                    <marker date="1534876329317" expanded="true" signature="677:839" ph="{...}" />
-                    <marker date="1534876329317" expanded="true" signature="886:1595" ph="{...}" />
-                    <marker date="1534876329317" expanded="true" signature="1620:1695" ph="{...}" />
-                    <marker date="1534876329317" expanded="true" signature="1748:2096" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="BattleCtrl.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-                  <folding>
-                    <marker date="1534855295218" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1534855295218" expanded="true" signature="119:439" ph="{...}" />
-                    <marker date="1534855295218" expanded="true" signature="209:367" ph="{...}" />
-                    <marker date="1534855295218" expanded="true" signature="386:437" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GameCtrl.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
+                <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
+                <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
+                <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeCtrl.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <marker date="1534846240965" expanded="true" signature="6:114" ph="..." />
+                <marker date="1534846240965" expanded="true" signature="153:241" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlickListener.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <folding>
+                <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
+                <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
+                <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarbleCtrl.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <marker date="1534893359795" expanded="true" signature="6:78" ph="..." />
+                <marker date="1534893359795" expanded="true" signature="119:2352" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="632:1817" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="726:787" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="834:1050" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="1097:1813" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="1838:1913" ph="{...}" />
+                <marker date="1534893359795" expanded="true" signature="1966:2350" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundCtrl.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundCtrl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <marker date="1534893359760" expanded="false" signature="6:92" ph="..." />
+                <marker date="1534893359760" expanded="true" signature="133:914" ph="{...}" />
+                <marker date="1534893359760" expanded="true" signature="284:426" ph="{...}" />
+                <marker date="1534893359760" expanded="true" signature="501:588" ph="{...}" />
+                <marker date="1534893359760" expanded="true" signature="643:911" ph="{...}" />
+                <marker date="1534893359760" expanded="true" signature="718:905" ph="{...}" />
+                <marker date="1534893359760" expanded="true" signature="811:895" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -128,7 +109,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" root0="FORCE_HIGHLIGHTING" />
@@ -140,6 +122,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" />
       </list>
     </option>
@@ -166,6 +149,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -183,7 +167,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +203,8 @@
       <option name="presentableId" value="Default" />
       <updated>1534842305043</updated>
       <workItem from="1534842315677" duration="864000" />
-      <workItem from="1534843534830" duration="8475000" />
+      <workItem from="1534843534830" duration="8727000" />
+      <workItem from="1534892188340" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="Home UI を配置">
       <created>1534845872959</created>
@@ -271,11 +255,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534874926414</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="壁にヒットした時に発生させるVFX作成">
+      <created>1534876792294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534876792294</updated>
+    </task>
+    <task id="LOCAL-00009" summary="フリックアローを表示非表示を実装">
+      <created>1534892541932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534892541932</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9339000" />
+    <option name="totallyTimeSpent" value="10545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,10 +286,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="324" y="0" width="1116" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50143063" weight="0.3709091" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50143063" side_tool="true" weight="0.3709091" />
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32820514" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4985694" visible="true" weight="0.34545454" />
@@ -301,7 +300,6 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="12" weight="0.32948717" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -310,8 +308,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +328,9 @@
     <MESSAGE value="プロジェクトデータ更新" />
     <MESSAGE value="フリック矢印画像import" />
     <MESSAGE value="フリックの具合を見て矢印のスケールを調整するように" />
-    <option name="LAST_COMMIT_MESSAGE" value="フリックの具合を見て矢印のスケールを調整するように" />
+    <MESSAGE value="壁にヒットした時に発生させるVFX作成" />
+    <MESSAGE value="フリックアローを表示非表示を実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="フリックアローを表示非表示を実装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,6 +338,72 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
+            <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
+            <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1534846240965" expanded="true" signature="6:114" ph="..." />
+            <marker date="1534846240965" expanded="true" signature="153:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
+            <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <marker date="1534855295218" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534855295218" expanded="true" signature="119:439" ph="{...}" />
+            <marker date="1534855295218" expanded="true" signature="209:367" ph="{...}" />
+            <marker date="1534855295218" expanded="true" signature="386:437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+          <folding>
+            <marker date="1534893359795" expanded="true" signature="6:78" ph="..." />
+            <marker date="1534893359795" expanded="true" signature="119:2352" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="632:1817" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="726:787" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="834:1050" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1097:1813" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1838:1913" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1966:2350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -402,30 +469,39 @@
             <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
             <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
             <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="371:614" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="660:1535" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="852:956" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="977:1426" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="1023:1112" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="1158:1331" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="1372:1423" ph="{...}" />
-            <marker date="1534854758935" expanded="true" signature="1463:1531" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoundCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <marker date="1534893359760" expanded="false" signature="6:92" ph="..." />
+            <marker date="1534893359760" expanded="true" signature="133:914" ph="{...}" />
+            <marker date="1534893359760" expanded="true" signature="284:426" ph="{...}" />
+            <marker date="1534893359760" expanded="true" signature="501:588" ph="{...}" />
+            <marker date="1534893359760" expanded="true" signature="643:911" ph="{...}" />
+            <marker date="1534893359760" expanded="true" signature="718:905" ph="{...}" />
+            <marker date="1534893359760" expanded="true" signature="811:895" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+        <state relative-caret-position="514">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
-            <marker date="1534876329317" expanded="false" signature="6:78" ph="..." />
-            <marker date="1534876329317" expanded="true" signature="119:2098" ph="{...}" />
-            <marker date="1534876329317" expanded="true" signature="585:1599" ph="{...}" />
-            <marker date="1534876329317" expanded="true" signature="677:839" ph="{...}" />
-            <marker date="1534876329317" expanded="true" signature="886:1595" ph="{...}" />
-            <marker date="1534876329317" expanded="true" signature="1620:1695" ph="{...}" />
-            <marker date="1534876329317" expanded="true" signature="1748:2096" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="6:78" ph="..." />
+            <marker date="1534893359795" expanded="true" signature="119:2352" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="632:1817" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="726:787" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="834:1050" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1097:1813" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1838:1913" ph="{...}" />
+            <marker date="1534893359795" expanded="true" signature="1966:2350" ph="{...}" />
           </folding>
         </state>
       </provider>
