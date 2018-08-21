@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b85fa27-5155-4167-9d5a-eb0c481d359f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Rectangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Rectangle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs.meta" afterDir="false" />
+    <list default="true" id="6b85fa27-5155-4167-9d5a-eb0c481d359f" name="Default" comment="Home UI を配置">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Marble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Marble.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HogeSuto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" afterDir="false" />
     </list>
     <ignored path="Assets/Font/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,33 +24,120 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameCtrl.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
-                <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
-                <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
-                <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="GameCtrl.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+                  <folding>
+                    <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
+                    <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
+                    <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeCtrl.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+                  <folding>
+                    <marker date="1534846240965" expanded="true" signature="6:114" ph="..." />
+                    <marker date="1534846240965" expanded="true" signature="153:241" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FlickListener.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="443">
+                  <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+                  <folding>
+                    <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
+                    <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="371:614" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="660:1535" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="852:956" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="977:1426" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="1023:1112" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="1158:1331" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="1372:1423" ph="{...}" />
+                    <marker date="1534854758935" expanded="true" signature="1463:1531" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MarbleCtrl.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                  <folding>
+                    <marker date="1534856409851" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534856409851" expanded="true" signature="119:768" ph="{...}" />
+                    <marker date="1534856409851" expanded="true" signature="285:492" ph="{...}" />
+                    <marker date="1534856409851" expanded="true" signature="377:488" ph="{...}" />
+                    <marker date="1534856409851" expanded="true" signature="513:588" ph="{...}" />
+                    <marker date="1534856409851" expanded="true" signature="641:766" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="BattleCtrl.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+                  <folding>
+                    <marker date="1534855295218" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1534855295218" expanded="true" signature="119:439" ph="{...}" />
+                    <marker date="1534855295218" expanded="true" signature="209:367" ph="{...}" />
+                    <marker date="1534855295218" expanded="true" signature="386:437" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlickListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs" />
       </list>
     </option>
@@ -70,9 +151,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="954" />
-    <option name="width" value="486" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -106,6 +186,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Battle&#9;FILE&#9;file:///Users/funabashinaoya/UnityProject/HogeSuto/Assets/Scripts/BattleCtrl.cs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -121,9 +202,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="93976">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="93976" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -137,12 +218,20 @@
       <option name="presentableId" value="Default" />
       <updated>1534842305043</updated>
       <workItem from="1534842315677" duration="864000" />
-      <workItem from="1534843534830" duration="828000" />
+      <workItem from="1534843534830" duration="4454000" />
     </task>
+    <task id="LOCAL-00001" summary="Home UI を配置">
+      <created>1534845872959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534845872959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1692000" />
+    <option name="totallyTimeSpent" value="5318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -154,20 +243,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="324" y="0" width="1116" height="900" extended-state="0" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.37179488" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32820514" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37307692" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4985694" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291815" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09942775" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32820514" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09942775" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="bottom" id="Unity" order="7" weight="0.32948717" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -176,7 +266,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -188,9 +277,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Home UI を配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home UI を配置" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -214,22 +307,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameCtrl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <marker date="1534843476713" expanded="false" signature="6:78" ph="..." />
             <marker date="1534843476713" expanded="true" signature="118:239" ph="{...}" />
             <marker date="1534843476713" expanded="true" signature="168:175" ph="{...}" />
             <marker date="1534843476713" expanded="true" signature="230:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HomeCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1534846240965" expanded="true" signature="6:114" ph="..." />
+            <marker date="1534846240965" expanded="true" signature="153:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <marker date="1534855295218" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534855295218" expanded="true" signature="119:439" ph="{...}" />
+            <marker date="1534855295218" expanded="true" signature="209:367" ph="{...}" />
+            <marker date="1534855295218" expanded="true" signature="386:437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlickListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <marker date="1534854758935" expanded="true" signature="6:51" ph="..." />
+            <marker date="1534854758935" expanded="true" signature="75:616" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="129:228" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="371:614" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="660:1535" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="852:956" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="977:1426" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="1023:1112" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="1158:1331" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="1372:1423" ph="{...}" />
+            <marker date="1534854758935" expanded="true" signature="1463:1531" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarbleCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1534856409851" expanded="false" signature="6:78" ph="..." />
+            <marker date="1534856409851" expanded="true" signature="119:768" ph="{...}" />
+            <marker date="1534856409851" expanded="true" signature="285:492" ph="{...}" />
+            <marker date="1534856409851" expanded="true" signature="377:488" ph="{...}" />
+            <marker date="1534856409851" expanded="true" signature="513:588" ph="{...}" />
+            <marker date="1534856409851" expanded="true" signature="641:766" ph="{...}" />
           </folding>
         </state>
       </provider>

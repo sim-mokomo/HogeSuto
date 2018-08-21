@@ -1,16 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class HomeCtrl : MonoBehaviour {
+public class HomeCtrl : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	[SerializeField] private Button questButton;
+
+	public Action OnClickedQuest;
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	
+
 }
