@@ -25,10 +25,17 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
     public Subject<MarbleCtrl> OnStopFlickMove = new Subject<MarbleCtrl>();
 
     public bool IsFlickable { get; private set; }
-    public bool IsDetectable { get; }
+    public bool IsDetectable
+    {
+        get { return !alreadyStrikeSmash; }
+    }
 
     [SerializeField] private float stopThreshold;
     public bool IsStopMove => _rigidbody2D?.velocity.sqrMagnitude <= stopThreshold;
+
+    [SerializeField] private GameObject strikeShotVfx;
+    [SerializeField] private AudioClip strikeShotSE;
+    private bool alreadyStrikeSmash;
 
     public void Init()
     {
@@ -37,6 +44,7 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
 
         IsFlickable = false;
         _isFlickEnd = false;
+        alreadyStrikeSmash = false;
 
         _flickListener = gameObject.AddComponent<FlickListener>();
         _flickListener.Init();
@@ -60,6 +68,11 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
             _isFlickEnd = false;
             OnStopFlickMove?.OnNext(this);
         }
+    }
+
+    public void TurnInit()
+    {
+        alreadyStrikeSmash = false;
     }
 
     public void Activate()
@@ -100,7 +113,13 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
 
     public void StrikeDetect()
     {
-        Debug.Log($"Strike Detection : {this.gameObject.name}");
+        if (alreadyStrikeSmash)
+        {
+            return;
+        }
+        GameObject strikeShotVfxObj = Instantiate(strikeShotVfx, transform.position, Quaternion.identity);
+        SoundCtrl.PlayOneShot(strikeShotSE);
+        alreadyStrikeSmash = true;
     }
 
     public void OnStartFlick(Vector3 startPos)

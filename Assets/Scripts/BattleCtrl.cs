@@ -10,7 +10,8 @@ using UnityEngine.UI;
 public class BattleCtrl : MonoBehaviour
 {
 	private List<MarbleCtrl> _playerMarbleList = new List<MarbleCtrl>();
-
+	public Action OnTurnChange;
+	
 	void Start()
 	{
 		_playerMarbleList = FindObjectsOfType<MarbleCtrl>().ToList();
@@ -28,6 +29,11 @@ public class BattleCtrl : MonoBehaviour
 				int distMarbleIndex = curIndex % _playerMarbleList.Count;
 				_playerMarbleList[distMarbleIndex].Activate();
 				
+				OnTurnChange?.Invoke();
+				foreach (var pl in _playerMarbleList)
+				{
+					pl.TurnInit();
+				}
 			});
 		}
 		_playerMarbleList.First().Activate();
