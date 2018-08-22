@@ -308,9 +308,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BattleCtrl.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="FlickListener.cs" t="Include" />
           <e p="GameCtrl.cs" t="Include" />
           <e p="HomeCtrl.cs" t="Include" />
+          <e p="I_Damageable.cs" t="Include" />
           <e p="I_Flickable.cs" t="Include" />
           <e p="I_StrikeDetectable.cs" t="Include" />
           <e p="MarbleCtrl.cs" t="Include" />

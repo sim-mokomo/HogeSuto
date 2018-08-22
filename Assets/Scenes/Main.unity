@@ -167,6 +167,11 @@ Prefab:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212288340243178256, guid: 562fad4c62bc3481081176e2b0c7dff4,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}
   m_IsPrefabParent: 0
@@ -212,6 +217,11 @@ Prefab:
     - target: {fileID: 1986545431016932, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}
       propertyPath: m_Name
       value: Marble (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212288340243178256, guid: 562fad4c62bc3481081176e2b0c7dff4,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}
@@ -434,6 +444,63 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 274432186}
+--- !u!4 &290616638 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922,
+    type: 2}
+  m_PrefabInternal: {fileID: 322285538}
+--- !u!1001 &322285538
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1603474499}
+    m_Modifications:
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634110442171132, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 223245103184133722, guid: 4cc4240627070436b87ccdde6ae1b922,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 224055306015494236, guid: 4cc4240627070436b87ccdde6ae1b922,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4cc4240627070436b87ccdde6ae1b922, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &332472996 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4615503545600238, guid: 562fad4c62bc3481081176e2b0c7dff4,
@@ -1083,6 +1150,11 @@ Prefab:
       propertyPath: m_Name
       value: Marble (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 212288340243178256, guid: 562fad4c62bc3481081176e2b0c7dff4,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}
   m_IsPrefabParent: 0
@@ -1574,6 +1646,7 @@ Transform:
   - {fileID: 2132513450}
   - {fileID: 332472996}
   - {fileID: 1189282886}
+  - {fileID: 290616638}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1836,6 +1909,11 @@ Prefab:
     - target: {fileID: 1986545431016932, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}
       propertyPath: m_Name
       value: Marble (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212288340243178256, guid: 562fad4c62bc3481081176e2b0c7dff4,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 562fad4c62bc3481081176e2b0c7dff4, type: 2}

@@ -158,6 +158,9 @@ MonoBehaviour:
   hitWallVFX: {fileID: 1881132004137550, guid: e50b5dc3a57c5420cb738671fc8e7103, type: 2}
   hitWallSE: {fileID: 8300000, guid: 60b52fdf9cd584452bc30a7c728a46df, type: 3}
   stopThreshold: 0.2
+  strikeShotVfx: {fileID: 1977957008642530, guid: e928ea7d7891641d5909b12a107ae9e1,
+    type: 2}
+  strikeShotSE: {fileID: 8300000, guid: 088d6a365d8974fda9859d9b58f09b02, type: 3}
 --- !u!212 &212174607051757976
 SpriteRenderer:
   m_ObjectHideFlags: 1
