@@ -30,9 +30,9 @@ public class FlickListener : MonoBehaviour
 
 	private Vector3 _startFlickPos;
 
-	public static Action<Vector3> OnStartFlick;
-	public static Action<FlickData> OnEndFlick;
-	public static Action<Vector3> OnFlicking;
+	public Action<Vector3> OnStartFlick;
+	public Action<FlickData> OnEndFlick;
+	public Action<Vector3> OnFlicking;
 	
 	public void Init()
 	{
