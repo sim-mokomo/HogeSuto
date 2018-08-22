@@ -87,13 +87,19 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
         GetComponent<SpriteRenderer>().color = Color.blue;
     }
 
+    public void SetVelocity(Vector3 newVelocity)
+    {
+        _rigidbody2D.velocity = newVelocity;
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        
+        MarbleCtrl hitMarbleCtrl = other.gameObject.GetComponent<MarbleCtrl>();
         /** 反射 **/
-        if (other.contacts.Length > 0)
+        Vector3 normal = other.contacts[0].normal;
+        if (other.contacts.Length > 0 && hitMarbleCtrl == null)
         {
-            Vector3 normal = other.contacts[0].normal;
             _rigidbody2D.velocity = Vector3.Reflect(_rigidbody2D.velocity, normal);
             GameObject hitWallVfxObj = Instantiate(hitWallVFX, transform.position, Quaternion.identity);
             Quaternion refrectRot = Quaternion.LookRotation(Vector3.forward, normal);
@@ -101,6 +107,11 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
             SoundCtrl.PlayOneShot(hitWallSE);
         }
 
+        if (hitMarbleCtrl != null && _isFlickEnd)
+        {
+            hitMarbleCtrl.SetVelocity(normal * 0.4f);
+        }
+        
         /** ストライク時 **/
         I_StrikeDetectable strikeDetectable = other.gameObject.GetComponent<I_StrikeDetectable>();
         if (strikeDetectable != null)
@@ -108,6 +119,16 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
             if (strikeDetectable.IsDetectable == false)
                 return;
             strikeDetectable.StrikeDetect();
+        }
+
+        I_Damageable damageable = other.gameObject.GetComponent<I_Damageable>();
+        if (damageable != null)
+        {
+            if (damageable.IsDamageable)
+            {
+                DamageInfo damageInfo = new DamageInfo(damageValue: 10.0f, attacker: this.gameObject);
+                damageable.ApplyDamage(damageInfo: damageInfo);
+            }
         }
     }
 
