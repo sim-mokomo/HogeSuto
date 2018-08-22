@@ -1,23 +1,39 @@
-﻿using System.Collections;
+﻿using UniRx;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleCtrl : MonoBehaviour
 {
-	private FlickListener _flickListener;
-	private MarbleCtrl _marbleCtrl;
+	private List<MarbleCtrl> _playerMarbleList = new List<MarbleCtrl>();
 
-	void Start ()
+	void Start()
 	{
-		_flickListener = FindObjectOfType<FlickListener>();
-		_marbleCtrl = FindObjectOfType<MarbleCtrl>();
-		
-		_flickListener.Init();
-		_marbleCtrl.Init();
+		_playerMarbleList = FindObjectsOfType<MarbleCtrl>().ToList();
+		foreach (var playerMarble in _playerMarbleList)
+		{
+			playerMarble.Init();
+			playerMarble.OnStopFlickMove
+				.ThrottleFirstFrame(frameCount: 120)
+				.Subscribe(self =>
+			{
+				Debug.Log("Change Turn");
+				self.Deactivate();
+				int curIndex = _playerMarbleList.FindIndex(marble => marble == self);
+				curIndex++;
+				int distMarbleIndex = curIndex % _playerMarbleList.Count;
+				_playerMarbleList[distMarbleIndex].Activate();
+				
+			});
+		}
+		_playerMarbleList.First().Activate();
 	}
 	
 	void Update () {
-		_flickListener.Move();
-		_marbleCtrl.Move();
+		_playerMarbleList.ForEach(marble => marble.Move());
 	}
 }
