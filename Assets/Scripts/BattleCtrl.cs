@@ -10,11 +10,13 @@ using UnityEngine.UI;
 public class BattleCtrl : MonoBehaviour
 {
 	private List<MarbleCtrl> _playerMarbleList = new List<MarbleCtrl>();
+	private List<Enemy> _enemyMarbleList = new List<Enemy>();
 	public Action OnTurnChange;
 	
 	void Start()
 	{
 		_playerMarbleList = FindObjectsOfType<MarbleCtrl>().ToList();
+		
 		foreach (var playerMarble in _playerMarbleList)
 		{
 			playerMarble.Init();
@@ -22,7 +24,7 @@ public class BattleCtrl : MonoBehaviour
 				.ThrottleFirstFrame(frameCount: 120)
 				.Subscribe(self =>
 			{
-				Debug.Log("Change Turn");
+				
 				self.Deactivate();
 				int curIndex = _playerMarbleList.FindIndex(marble => marble == self);
 				curIndex++;
@@ -34,12 +36,23 @@ public class BattleCtrl : MonoBehaviour
 				{
 					pl.TurnInit();
 				}
+				
 			});
+			
+			
 		}
 		_playerMarbleList.First().Activate();
+
+
+		_enemyMarbleList = FindObjectsOfType<Enemy>().ToList();
+		foreach (var em in _enemyMarbleList)
+		{
+			em.Init();
+		}
 	}
 	
 	void Update () {
 		_playerMarbleList.ForEach(marble => marble.Move());
+		_enemyMarbleList.ForEach(em => em.Move());
 	}
 }
