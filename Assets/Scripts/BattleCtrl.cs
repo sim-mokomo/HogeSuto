@@ -11,14 +11,18 @@ public class BattleCtrl : MonoBehaviour
 {
 	private List<MarbleCtrl> _playerMarbleList = new List<MarbleCtrl>();
 	private List<Enemy> _enemyMarbleList = new List<Enemy>();
+	
 	public Action OnTurnChange;
 	
 	void Start()
 	{
 		_playerMarbleList = FindObjectsOfType<MarbleCtrl>().ToList();
 		
+		
 		foreach (var playerMarble in _playerMarbleList)
 		{
+			
+			
 			playerMarble.Init();
 			playerMarble.OnStopFlickMove
 				.ThrottleFirstFrame(frameCount: 120)
@@ -42,7 +46,6 @@ public class BattleCtrl : MonoBehaviour
 			
 		}
 		_playerMarbleList.First().Activate();
-
 
 		_enemyMarbleList = FindObjectsOfType<Enemy>().ToList();
 		foreach (var em in _enemyMarbleList)

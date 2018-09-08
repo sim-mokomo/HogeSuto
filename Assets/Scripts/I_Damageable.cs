@@ -19,4 +19,5 @@ public interface I_Damageable
 {
     bool IsDamageable { get; }
     void ApplyDamage(DamageInfo damageInfo);
+
 }

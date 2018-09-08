@@ -308,6 +308,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BattleCtrl.cs" t="Include" />
+          <e p="BattleUICtrl.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="FlickListener.cs" t="Include" />
           <e p="GameCtrl.cs" t="Include" />
@@ -317,6 +318,7 @@
           <e p="I_StrikeDetectable.cs" t="Include" />
           <e p="MarbleCtrl.cs" t="Include" />
           <e p="SoundCtrl.cs" t="Include" />
+          <e p="TurnCtrl.cs" t="Include" />
         </e>
       </e>
       <e p="HogeSuto.sln" t="IncludeFlat" />

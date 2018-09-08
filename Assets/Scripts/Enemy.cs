@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using UniRx;
 
 public class Enemy : MonoBehaviour,I_Damageable
 {
 
 	[SerializeField] private Slider _hpGauge;
 	[SerializeField] private float _maxHp;
-	
-	private float _hp;
+
+	private ReactiveProperty<float> _hp = new ReactiveProperty<float>();
 
 	public float Hp
 	{
-		get { return _hp; }
+		get { return _hp.Value; }
 		private set
 		{
-			_hp -= value;
-			_hp = Mathf.Clamp(_hp, 0, _maxHp);
-			_hpGauge.value = _hp;
+			_hp.SetValueAndForceNotify(Mathf.Clamp(value,0,_maxHp));
+			_hpGauge.value = value;
 		}
 	}
 
@@ -35,8 +35,18 @@ public class Enemy : MonoBehaviour,I_Damageable
 	
 	public void Init()
 	{
+		Hp = _maxHp;
 		_hpGauge.maxValue = _maxHp;
 		_hpGauge.value = _maxHp;
+		
+		_hp.Subscribe(hp =>
+		{
+			if (hp <= 0)
+			{
+				Destroy(this.gameObject);
+			}
+		});
+		
 	}
 
 	public void Move()

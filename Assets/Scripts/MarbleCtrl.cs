@@ -96,6 +96,7 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
     {
         
         MarbleCtrl hitMarbleCtrl = other.gameObject.GetComponent<MarbleCtrl>();
+        
         /** 反射 **/
         Vector3 normal = other.contacts[0].normal;
         if (other.contacts.Length > 0 && hitMarbleCtrl == null)
@@ -151,12 +152,12 @@ public class MarbleCtrl : MonoBehaviour, I_StrikeDetectable, I_Flickable
 
     public void OnFlicking(Vector3 flickingPos)
     {
-        /** フリックアローのスケーリング **/
         Vector3 diff = flickingPos - transform.position;
         float angle = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
         angle += 90.0f;
         flickArrowRoot.transform.rotation = Quaternion.Euler(euler: new Vector3(0.0f, 0.0f, angle));
 
+        /** フリックアローのスケーリング **/
         float distToMouse = (flickingPos - transform.position).sqrMagnitude;
         distToMouse = distToMouse - 100.0f;
         float distToMouseRatio = distToMouse / flickScalingMaxBounds;
